@@ -23,7 +23,7 @@ RUN npm install pm2 -g
 # download project
 RUN mkdir -p /var/www \
     && cd /var/www \
-    && wget -O cezerin.zip https://github.com/viralpatel380/bg-ecomm/archive/v$CEZERIN_VERSION.zip \
+    && wget -O cezerin.zip https://github.com/viralpatel380/bg-ecomm/archive/master.zip \
     && unzip cezerin.zip \
     && rm cezerin.zip \
     && mv cezerin-$CEZERIN_VERSION cezerin
